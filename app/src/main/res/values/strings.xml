@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BookListing</string>
+    <string name="search">SEARCH</string>
+    <string name="input">Please input book title or author</string>
+    <string name="author">Search only in author</string>
+    <string name="title">Search only in title</string>
+    <string name="no_connection">No internet connection</string>
+    <string name="empty">No books found</string>
+</resources>

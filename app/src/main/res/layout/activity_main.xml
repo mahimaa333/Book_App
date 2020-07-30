@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fec89a"
+    android:layout_gravity="center_horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/input_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/input"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:autofillHints=""
+        android:inputType="text"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/title_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/title"/>
+
+    <CheckBox
+        android:layout_marginTop="8dp"
+        android:id="@+id/author_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/author"/>
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onCLick"
+        android:layout_marginTop="16dp"
+        android:text="@string/search"
+        android:background="#e6b8a2"
+        android:textSize="16sp"/>
+
+</LinearLayout>
